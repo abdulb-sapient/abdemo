@@ -42,11 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bitdemo\ConsoleApplication1\ConsoleApplication1\Program.cs" />
+    <Compile Include="bitdemo\ConsoleApplication1\ConsoleApplication1\Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bitdemo\.git" />
+    <None Include="bitdemo\ConsoleApplication1\ConsoleApplication1\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bitdemo\.gitattributes" />
+    <Content Include="bitdemo\.gitignore" />
+    <Content Include="bitdemo\ConsoleApplication1\ConsoleApplication1.sln" />
+    <Content Include="bitdemo\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
